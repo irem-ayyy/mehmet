@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.genel-card {
+  background-color: black;
+  width: 94.9em;
+  height: 45.6em;
+}
+
+.genel-card .logo-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.genel-card .logo-card .musavirlogo .mus-logo {
+  box-shadow: 5px 5px #fad02e;
+  width: 20em;
+  height: 17em;
+  margin-top: 3em;
+  margin-left: -2em;
+}
+
+.genel-card .logo-card .asil-logo .as-logo {
+  box-shadow: -5px 5px #fad02e;
+  width: 20em;
+  height: 17em;
+  margin-left: 55em;
+  margin-top: 3em;
+}
+
+.genel-card .text-card {
+  position: absolute;
+  top: 15em;
+  margin-left: 20.8em;
+  line-height: 10em;
+  font-family: "Libre Baskerville", serif;
+  margin-top: -8em;
+  text-align: center;
+}
+
+.genel-card .text-card .ikinci-baslik {
+  font-size: 6em;
+  color: gold;
+}
